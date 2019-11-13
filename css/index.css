@@ -238,9 +238,30 @@ h2 {
 	margin: 30px 0px 30px 0px;
 }
 
-@media (max-width = 800px) {
+@media (max-width: 800px) {
     .navMain {
+        width: 100%;
         display: flex;
         flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo {
+        margin: 30px;
+    }
+    .navLG {
+        width: 100%;
+    }
+    #headerImage {
+        display: none;
+    }
+    #titleSplash {
+        margin-top: 45px;
+    }
+    .mainCont {
+        margin: 20px 0 20px 0;
+        padding: 10px 0 10px 0;
+        border-top: solid 2px black;
+        border-bottom: solid 2px black;
     }
 }
