@@ -133,6 +133,12 @@ body {
 #getStarted:hover {
 	box-shadow: 5px 5px 10px rgb(61, 110, 184);
 }
+.mainCont {
+    margin: 20px 0 20px 0;
+    padding: 10px 0 10px 0;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
 .mainContTextSec {
 	display: flex;
 	flex-direction: column;
@@ -258,10 +264,26 @@ h2 {
     #titleSplash {
         margin-top: 45px;
     }
-    .mainCont {
-        margin: 20px 0 20px 0;
-        padding: 10px 0 10px 0;
-        border-top: solid 2px black;
-        border-bottom: solid 2px black;
+}
+@media (max-width: 500px) {
+    .navLink{
+        padding: 15px 0 15px 0;
+        text-align: center;
+        width: 75%;
+        margin-bottom: -1px;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+    .navLG {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .mainContTextTop {
+        flex-direction: column;
+    }
+    .mainContTextBot{
+        flex-direction: column;
     }
 }
