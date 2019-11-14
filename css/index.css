@@ -168,6 +168,9 @@ footer {
 	text-align: center;
 	margin: 30px 0px 30px 0px;
 }
+
+/* service page css */
+
 .servHeadText {
 	flex-direction: column;
 	margin: 1%;
@@ -247,6 +250,8 @@ h2 {
 	margin: 30px 0px 30px 0px;
 }
 
+
+/* responsive css */
 @media (max-width: 800px) {
     .navMain {
         width: 100%;
@@ -266,6 +271,33 @@ h2 {
     }
     #titleSplash {
         margin-top: 45px;
+    }
+
+    /* service page responsive css */
+
+    .services-info-img {
+        display: none;
+    }
+    .servBot {
+        
+        justify-content: center;
+    }
+    .servBotText {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding: 0 20px 0 20px;
+        width: 100%;
+    }
+    .servBotDes {
+        text-align: center;
+    }
+    .servBotUl {
+        
+        text-align: center;
+        width: 50%;
+        list-style-position: inside;
+        margin: 0 auto;  
     }
 }
 @media (max-width: 500px) {
@@ -288,5 +320,14 @@ h2 {
     }
     .mainContTextBot{
         flex-direction: column;
+    }
+ /* css for service page */
+    .servMain {
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+ }
+    .servInf {
+        width: 95%;
     }
 }
